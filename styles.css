@@ -1,28 +1,12 @@
+/* styles.css */
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f0f0f0;
-    color: #333;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
     background-color: #000;
     color: #fff;
-}
-
-.navbar-links a {
-    color: #fff;
-    margin: 0 10px;
-    text-decoration: none;
-}
-
-.navbar-links a:hover {
-    text-decoration: underline;
 }
 
 .hero {
@@ -30,6 +14,21 @@ body {
     color: #fff;
     padding: 100px 20px;
     text-align: center;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
 }
 
 section {
